@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('app');
+// });
+// routes/web.php
+use App\Http\Controllers\RentController;
+
+Route::get('/', [RentController::class, 'showRentedBooks']);
+Route::get('/rented-books', [RentController::class, 'showRentedBooks']);
+Route::get('/never-rented-books', [RentController::class, 'showNeverRentedBooks']);
+Route::get('/books-price-range', [RentController::class, 'showBooksPriceRange']);
+Route::get('/top-customers', [RentController::class, 'showTopCustomers']);
