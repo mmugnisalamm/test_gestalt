@@ -47,15 +47,11 @@ Pastikan sistem yang digunakan memenuhi persyaratan berikut sebelum menjalankan 
    ```sh
    php artisan key:generate
    ```
-5. **Jalankan Migrasi Database**
+5. **Menjalankan Aplikasi**
    ```sh
-   php artisan migrate
+   php -S 0.0.0.0:5009
    ```
-6. **Menjalankan Aplikasi**
-   ```sh
-   php artisan serve
-   ```
-   Aplikasi akan berjalan di `http://127.0.0.1:8000`
+   Aplikasi akan berjalan di `http://127.0.0.1:50009`
 
 ## Kontributor
 
