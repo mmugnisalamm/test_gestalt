@@ -55,7 +55,7 @@ Pastikan sistem yang digunakan memenuhi persyaratan berikut sebelum menjalankan 
 
 ## Kontributor
 
-Silakan hubungi [Nama Kamu] untuk informasi lebih lanjut mengenai proyek ini.
+Silakan hubungi Muhammad Mugnisalam Magfira untuk informasi lebih lanjut mengenai proyek ini.
 
 ## Lisensi
 
